@@ -1,0 +1,42 @@
+.my-contracts-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .contracts-list-container {
+    margin-top: 20px;
+  }
+  
+  .contracts-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .contract-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .contract-card h3 {
+    margin-top: 0;
+  }
+  
+  .contract-card p {
+    margin: 5px 0;
+  }
+  
+  .contract-card a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  .contract-card a:hover {
+    text-decoration: underline;
+  }
+  

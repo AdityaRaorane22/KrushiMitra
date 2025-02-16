@@ -1,0 +1,62 @@
+/* ViewFarmers.css */
+
+.view-farmers-container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #343a40;
+    font-size: 24px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: #495057;
+  }
+  
+  th {
+    background-color: #2e7d32;
+    color: #ffffff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  td:first-child {
+    border-top-left-radius: 8px;
+  }
+  
+  td:last-child {
+    border-top-right-radius: 8px;
+  }
+  
+  table thead th:first-child {
+    border-top-left-radius: 8px;
+  }
+  
+  table thead th:last-child {
+    border-top-right-radius: 8px;
+  }
+  

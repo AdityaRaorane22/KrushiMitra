@@ -1,0 +1,157 @@
+/* .farmer-dashboard-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-header h1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  
+  .farmer-email {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .dashboard-navbar {
+    margin-top: 20px;
+  }
+  
+  .dashboard-navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dashboard-navbar ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .dashboard-navbar ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .dashboard-navbar ul li a:hover {
+    color: #007bff;
+  }
+  
+  .farmer-dashboard-container {
+    position: relative;
+
+  }
+  
+  .chatbot-image {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+  }
+  
+  .chatbot-image img {
+    width: 100px; 
+    height: auto;
+    z-index: 1000;
+  }
+   */
+
+   .farmer-dashboard-container {
+    display: flex;
+    min-height: 100vh; /* Full height of the viewport */
+  }
+  
+  /* Vertical navbar on the left */
+  .dashboard-navbar {
+    width: 250px;
+    background-color: #28a745; /* Green background */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  /* Title at the top of the navbar */
+  .dashboard-navbar h2 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Unordered list for the navbar items */
+  .dashboard-navbar ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  /* Individual list items styled as buttons */
+  .dashboard-navbar li {
+    width: 100%;
+  }
+  
+  /* Links and buttons inside the navbar */
+  .dashboard-navbar li a,
+  .dashboard-navbar li button {
+    display: block;
+    /* width: 100%; */
+    padding: 15px 20px;
+    color: white;
+    background-color: #28a745;
+    text-align: left;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Hover effect for links and buttons */
+  .dashboard-navbar li a:hover,
+  .dashboard-navbar li button:hover {
+    background-color: #218838; /* Darker green for hover effect */
+  }
+  
+  /* Specific button styling inside the navbar */
+  .dashboard-navbar li button {
+    background-color: transparent;
+    text-align: left;
+    padding: 15px 20px;
+    cursor: pointer;
+  }
+  
+  /* Additional hover effect for buttons */
+  .dashboard-navbar li button:hover {
+    background-color: #218838; /* Hover effect */
+  }
+  
+  /* Content area to the right of the navbar */
+  .dashboard-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Header inside the content area */
+  .dashboard-header {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Styling for the email display in the header */
+  .farmer-email {
+    font-size: 16px;
+    color: #333;
+  }

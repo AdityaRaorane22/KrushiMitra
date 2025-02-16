@@ -1,0 +1,65 @@
+/* SignupContractor.css */
+.signup-contractor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .signup-contractor-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  .signup-contractor-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .signup-contractor-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .signup-contractor-container button {
+    padding: 10px;
+    background-color: #2e7d32;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-contractor-container button:hover {
+    background-color: #2e7d32;
+  }
+  
+  .signup-contractor-container p {
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  .signup-contractor-container a {
+    color: #2e7d32;
+    text-decoration: none;
+  }
+  
+  .signup-contractor-container a:hover {
+    text-decoration: underline;
+  }
+  

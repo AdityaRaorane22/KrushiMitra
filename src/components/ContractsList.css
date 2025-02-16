@@ -1,0 +1,22 @@
+.contracts-list-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contracts-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .contract-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+  }
+  
+  .contract-card h3 {
+    margin-top: 0;
+  }
+  

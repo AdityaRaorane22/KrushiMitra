@@ -1,0 +1,78 @@
+.contractor-dashboard-container {
+  display: flex;
+  min-height: 100vh; /* Full height of the viewport */
+}
+
+/* Vertical navbar on the left */
+.dashboard-navbar-contractor {
+  width: 250px;
+  background-color: #28a745; /* Green background */
+  color: rgb(228, 192, 192);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Title at the top of the navbar */
+.dashboard-navbar-contractor h2 {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Unordered list for the navbar items */
+.dashboard-navbar-contractor ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+/* Individual list items styled as buttons */
+.dashboard-navbar-contractor li {
+  width: 100%;
+}
+
+/* Links and buttons inside the navbar */
+.dashboard-navbar-contractor li a,
+.dashboard-navbar li button {
+  display: block;
+  /* width: 100%; */
+  padding: 15px 20px;
+  color: white;
+  background-color: #28a745;
+  text-align: left;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Hover effect for links and buttons */
+.dashboard-navbar-contractor li a:hover,
+.dashboard-navbar-contractor li button:hover {
+  background-color: #218838; /* Darker green for hover effect */
+}
+
+/* Specific button styling inside the navbar */
+.dashboard-navbar-contractor li button {
+  background-color: transparent;
+  text-align: left;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+/* Additional hover effect for buttons */
+.dashboard-navbar-contractor li button:hover {
+  background-color: #218838; /* Hover effect */
+}
+
+/* Content area to the right of the navbar */
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+

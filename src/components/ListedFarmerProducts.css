@@ -1,0 +1,125 @@
+/* .listed-products-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .back-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #45a049;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .product-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    margin: 5px 0;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+   */
+
+   .listed-products-container {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+  }
+  
+  /* Flexbox container to ensure cards take full width */
+  .product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Adjust card to take full width */
+  .product-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #28a745;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 15px;
+    width: 100% !important;  /* Ensure the card takes full width */
+    max-width: none;  /* Remove any max-width constraints */
+    box-sizing: border-box;  /* Ensure padding and borders are included in width */
+    
+  }
+  
+  
+  /* Ensure the image and content are aligned correctly */
+  .product-card img {
+    width: 300px !important;  /* Ensure the card takes full width */
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .product-details {
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  .product-card h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .product-card p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .product-card p strong {
+    color: #333;
+  }
+  
+  .product-description {
+    margin-top: 10px;
+    color: #444;
+    font-size: 16px;
+  }
